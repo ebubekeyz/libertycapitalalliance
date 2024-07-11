@@ -28,7 +28,7 @@ const helmet = require('helmet');
 let originUrl =
   process.env.NODE_ENV !== 'production'
     ? 'http://localhost:5173'
-    : 'https://pledge-bank.com';
+    : 'https://libertycredit-union.com';
 
 // let originUrl =
 //   process.env.NODE_ENV !== 'production'
