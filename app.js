@@ -33,7 +33,7 @@ let originUrl =
 // let originUrl =
 //   process.env.NODE_ENV !== 'production'
 //     ? 'http://localhost:5173'
-//     : 'https://pledgebank.netlify.app';
+//     : 'https://libertycredit-union.netlify.app';
 
 app.use(
   cors({
