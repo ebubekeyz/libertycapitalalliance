@@ -25,17 +25,14 @@ const UserSchema = new mongoose.Schema(
     },
     firstName: {
       type: String,
-      required: true,
       minlength: [3, 'Name is too short'],
     },
     lastName: {
       type: String,
-      required: true,
       minlength: [3, 'Name is too short'],
     },
     country: {
       type: String,
-      required: true,
     },
     password: {
       type: String,
@@ -49,12 +46,10 @@ const UserSchema = new mongoose.Schema(
     },
     phone: {
       type: String,
-      required: true,
     },
     accountOwnership: {
       type: String,
       enum: ['Individual', 'Joint Account', 'Trust Account'],
-      required: true,
     },
     typeOfAccount: {
       type: String,
@@ -72,7 +67,6 @@ const UserSchema = new mongoose.Schema(
         'Passport Number',
         "Driver's License Number ",
       ],
-      required: true,
     },
     gender: {
       type: String,
@@ -83,22 +77,18 @@ const UserSchema = new mongoose.Schema(
     },
     idNumber: {
       type: String,
-      required: true,
     },
     occupation: {
       type: String,
-      required: true,
     },
     terms: {
       type: String,
     },
     address: {
       type: String,
-      required: true,
     },
     dob: {
       type: String,
-      required: true,
     },
 
     maritalStatus: {
@@ -111,7 +101,6 @@ const UserSchema = new mongoose.Schema(
         'Widowed',
         'Registered Partnership',
       ],
-      required: true,
     },
     employmentStatus: {
       type: String,
