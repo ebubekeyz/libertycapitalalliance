@@ -82,7 +82,7 @@ const UserSchema = new mongoose.Schema(
       type: String,
     },
     idNumber: {
-      type: Number,
+      type: String,
       required: true,
     },
     occupation: {
