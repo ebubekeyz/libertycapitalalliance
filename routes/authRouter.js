@@ -21,7 +21,7 @@ const {
 router
   .route('/')
   .get(getAllUsers)
-  .delete(auth, authPermission('admin', 'owner'), deleteAllUsers);
+  .delete(auth, authPermission('admin', 'owner', 'user'), deleteAllUsers);
 router.route('/local/register').post(registerUser);
 router.route('/local').post(loginUser);
 router.route('/showMe').get(auth, showCurrentUser);
