@@ -31,6 +31,6 @@ router
   .patch(auth, editSingleAddFund);
 
 router.route('/:id/deleteUserAddFund').delete(auth, deleteUserAddFund);
-router.route('/:id/editUserAddFund').patch(auth, editUserAddFund);
+router.route('/:id/editUserAddFund').patch(editUserAddFund);
 
 module.exports = router;
