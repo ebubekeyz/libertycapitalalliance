@@ -95,7 +95,7 @@ const loginUser = async (req, res) => {
   });
 
   let info = await transporter.sendMail({
-    from: `"Pledge Bank PLC" <team.pledge.bank@gmail.com>`,
+    from: `"Liberty Credit Union" <help.libertycreditunion@gmail.com>`,
     to: `${email}`,
     subject: `OTP Verification Code`,
     html: `<div style="text-align: center; margin: 1rem auto">
