@@ -20,6 +20,11 @@ const AccountSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    status: {
+      type: String,
+      enum: ['true', 'false'],
+      default: 'false',
+    },
     date: {
       type: String,
       default: moment().format('YYYY-DD-MM'),
