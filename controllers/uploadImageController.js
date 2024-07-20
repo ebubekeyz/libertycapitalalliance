@@ -15,8 +15,7 @@ const upload = async (req, res) => {
   }
   const imagePath = path.join(
     __dirname,
-    'https://raw.githubusercontent.com/ebubekeyz/libertycapitalalliance/main/public/uploads/' +
-      `${productImage.name}`
+    '../public/uploads/' + `${productImage.name}`
   );
 
   await productImage.mv(imagePath);
