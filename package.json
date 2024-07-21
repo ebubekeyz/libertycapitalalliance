@@ -1,5 +1,5 @@
 {
-  "name": "bank-app-server",
+  "name": "liberty backend",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ebubekeyz/comfi-server-api.git"
+    "url": "git+https://github.com/ebubekeyz/libertycapitalalliance.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ebubekeyz/comfi-server-api/issues"
+    "url": "https://github.com/ebubekeyz/libertycapitalalliance/issues"
   },
-  "homepage": "https://github.com/ebubekeyz/comfi-server-api#readme",
+  "homepage": "https://github.com/ebubekeyz/libertycapitalalliance#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
