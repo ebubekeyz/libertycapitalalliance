@@ -54,10 +54,9 @@ app.use(
 );
 app.use(xss());
 
-app.use(fileUpload());
-
 app.use(express.static('./public'));
 app.use(express.json());
+app.use(fileUpload({ useTempFiles: true }));
 
 app.use('/api/auth', authRouter);
 app.use('/api/withdraw', withdrawRouter);
