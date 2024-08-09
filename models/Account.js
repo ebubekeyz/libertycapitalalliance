@@ -30,8 +30,7 @@ const AccountSchema = new mongoose.Schema(
       default: moment().format('YYYY-DD-MM'),
     },
     user: {
-      type: mongoose.Types.ObjectId,
-      ref: 'User',
+      type: String,
       required: true,
     },
   },
